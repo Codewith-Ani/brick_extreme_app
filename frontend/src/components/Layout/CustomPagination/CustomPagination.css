@@ -1,0 +1,36 @@
+/* Pagination */
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* gap: 1px; */
+	color: white;
+	padding: 1rem 2rem;
+	cursor: pointer;
+}
+.page-item {
+	border: 1px solid #fa9c23;
+	display: flex;
+	width: 100%;
+	padding: 5px 10px;
+	background: transparent;
+}
+
+.page-item.active {
+	background-color: #fa9c23;
+	border-color: #fa9c23;
+}
+
+.page-item.active:hover {
+	color: #fa9c23;
+	background-color: white;
+}
+
+.page-link {
+	color: white;
+}
+
+.page-link:hover {
+	color: #fa9c23;
+}

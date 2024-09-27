@@ -1,0 +1,23 @@
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+	width: 4px; /* Set scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+	background: transparent; /* Track background color */
+}
+
+::-webkit-scrollbar-thumb {
+	background: white; /* Scrollbar color */
+	border-radius: 2px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: darkslategray; /* Darker color on hover */
+}
+
+/* For Firefox */
+.scrollable {
+	scrollbar-width: thin; /* Set scrollbar width */
+	scrollbar-color: darkslategray transparent; /* Scrollbar color and track color */
+}
