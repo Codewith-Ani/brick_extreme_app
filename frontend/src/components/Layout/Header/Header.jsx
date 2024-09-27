@@ -100,7 +100,7 @@ const Header = () => {
 
 	return (
 		<header
-			className={`flex justify-between items-center p-4 border-b border-gray-300 transition-all duration-300 ease-in-out ${
+			className={`flex justify-between items-center p-2 border-b border-gray-300 transition-all duration-300 ease-in-out ${
 				isSticky
 					? 'fixed w-full top-0 z-50 shadow-lg left-0'
 					: 'relative'
@@ -118,11 +118,13 @@ const Header = () => {
 				to='/'
 				className='flex items-center'
 			>
-				<img
-					src={logo}
-					alt='Logo'
-					className='w-32 md:w-80 max-w-full'
-				/>
+				<div className='w-[150px] flex items-center justify-center relative'>
+					<img
+						src={logo}
+						alt='Logo'
+						className='w-full'
+					/>
+				</div>
 			</Link>
 
 			{/* Navigation Links */}
