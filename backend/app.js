@@ -19,7 +19,7 @@ const app = express();
 
 process.on('uncaughtException', (err) => {
 	console.log(`ERROR: ${err}`);
-	console.log('Shutting down due to uncaught error');
+	console.log('Shutting down server due to uncaught error');
 	process.exit(1);
 });
 
