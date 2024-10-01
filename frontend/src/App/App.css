@@ -2,5 +2,5 @@ body {
 	font-size: 15px;
 	font-weight: 500;
 	font-family: 'Montserrat', sans-serif;
-	background: rgba(1, 35, 80, 0.784);
+	background: linear-gradient(to top left, #1e3a8a, #3b82f6, #1e40af);
 }

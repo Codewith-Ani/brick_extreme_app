@@ -100,13 +100,15 @@ const Header = () => {
 
 	return (
 		<header
-			className={`flex justify-between items-center p-2 border-b border-gray-300 transition-all duration-300 ease-in-out ${
-				isSticky
-					? 'fixed w-full top-0 z-50 shadow-lg left-0'
-					: 'relative'
-			}`}
-			style={{ background: 'rgba(1, 35, 80, 0.65)' }}
-		>
+		className={`flex h-[88px] w-[100vw] justify-between items-center md:px-4 px-2 border-b border-gray-300 transition-all duration-300 ease-in-out ${
+			isSticky
+				? 'fixed w-full top-0 z-50 shadow-lg left-0'
+				: 'relative'
+		} w-auto`}  // Ensures full width on small screens, adjusts on larger screens
+		style={{
+			position: 'relative',
+		}}
+	>
 			{/* Menu Icon (Burger Menu) */}
 			<HiMiniBars3BottomLeft
 				className='md:hidden text-xl text-white cursor-pointer'
@@ -118,11 +120,12 @@ const Header = () => {
 				to='/'
 				className='flex items-center'
 			>
-				<div className='w-[150px] flex items-center justify-center relative'>
+				<div className='md:w-[300px] md:ml-[20px]  flex items-center justify-center'>
 					<img
 						src={logo}
 						alt='Logo'
-						className='w-full'
+						className='w-[150px] z-40'
+						style={{ position: 'absolute', top: '0px' }}
 					/>
 				</div>
 			</Link>

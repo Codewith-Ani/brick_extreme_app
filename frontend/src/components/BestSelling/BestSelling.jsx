@@ -36,15 +36,15 @@ const BestSelling = () => {
 	};
 
 	return (
-		<div className='p-4'>
-			<h2 className='text-3xl md:text-4xl lg:text-5xl text-gray-300 font-extrabold mb-4 text-start'>
+		<div className='p-4 py-2'>
+			<h2 className='text-3xl md:text-7xl text-gray-300 font-extrabold mb-4 text-start py-6 header-text'>
 				Best Selling Products
 			</h2>
 			<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
 				{bestSellingProducts.map((product) => (
 					<div
 						key={product._id}
-						className='rounded-lg shadow-lg bg-gray-800 overflow-hidden cursor-pointer'
+						className='rounded-lg bg-slate-800 overflow-hidden shadow-md shadow-blue-400 hover:shadow-white hover:translate-y-1 cursor-pointer'
 						onClick={() => handleProductClick(product)}
 					>
 						<div className='w-full aspect-square'>

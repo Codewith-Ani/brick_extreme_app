@@ -8,7 +8,7 @@ import toast from 'react-hot-toast';
 import Loader from '../../Layout/Loader/Loader';
 import StarRatings from 'react-star-ratings';
 import { useDispatch, useSelector } from 'react-redux';
-import { setCartItem, removeCartItem } from '../../../redux/features/cartSlice';
+import { setCartItem } from '../../../redux/features/cartSlice';
 
 const ProductDetails = () => {
 	const { id } = useParams();
@@ -66,21 +66,19 @@ const ProductDetails = () => {
 	};
 
 	return (
-		<div className='flex flex-col gap-6 p-6 bg-gray-900 min-h-screen text-white'>
-			<div className='flex flex-col md:flex-row gap-8'>
+		<div className='flex flex-col p-2 my-2 min-h-screen text-white'>
+			<div className='flex flex-col md:flex-row justify-evenly'>
 				{/* Thumbnail Images */}
-				<div className='flex flex-col-reverse md:flex-row md:w-[50%]'>
-					<div className='flex p-2 flex-row md:flex-col w-[20%] relative bg-white h-[60vh] overflow-y-scroll gap-6 md:justify-center'>
-						{/* {product?.images?.map((img, index) => ( */}
+				<div className='flex flex-col-reverse md:flex-row md:w-[50%] max-h-[80vh]'>
+					<div className='flex p-2 flex-row md:flex-col w-[25%] relative bg-white overflow-y-scroll gap-2 scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200'>
 						{product?.images?.map((img, index) => (
 							<img
-								className={`w-[100%]  object-fill aspect-square rounded-md cursor-pointer border-2 ${
+								className={`w-[100%] object-fill aspect-square rounded-md cursor-pointer ${
 									img.url === activeImage
 										? 'border-black'
 										: 'border-gray-300'
 								} hover:border-black`}
 								key={index}
-								//								src={img.url || default_image}
 								src={default_image}
 								alt={`Thumbnail ${index + 1}`}
 								onClick={() =>
@@ -91,10 +89,9 @@ const ProductDetails = () => {
 					</div>
 
 					{/* Main Image */}
-					<div className='flex-1 flex items-center  justify-center'>
+					<div className='flex-1   flex items-center justify-center h-[80vh] mx-4'>
 						<img
-							className='w-full  max-w-lg  h-[80vh] md:h-auto object-fill rounded-lg shadow-lg'
-							// src={activeImage || default_image}
+							className='w-full h-full'
 							src={default_image2}
 							alt={product?.name || 'Product Image'}
 						/>
@@ -102,47 +99,51 @@ const ProductDetails = () => {
 				</div>
 
 				{/* Product Details */}
-				<div className='flex-1'>
-					<h1 className='text-lg md:text-4xl font-bold  mb-3'>
+				<div className='opacity-1 flex-1 px-2 '>
+					<h1 className='text-lg md:text-4xl font-bold mb-2'>
 						{product?.name}
 					</h1>
 					<p className='mb-2'>Product ID: {product?._id}</p>
-					<div className='flex items-center mb-3'>
+					<div className='flex items-center mb-2'>
 						<StarRatings
 							rating={product?.ratings || 0}
 							starRatedColor='#ffb829'
 							numberOfStars={5}
 							name='rating'
-							starDimension='24px'
+							starDimension='20px'
 							starSpacing='1px'
 						/>
 						<span className='ml-2'>
 							({product?.number_of_reviews} Reviews)
 						</span>
 					</div>
-					<p className='text-2xl font-semibold text-red-500 mb-4'>
+					<p className='text-xl font-semibold text-red-500 mb-2'>
 						${product?.price}
 					</p>
 
 					{/* Quantity Selector */}
-					<div className='flex items-center mb-4'>
+					<div className='flex items-center mb-2'>
 						<button
 							onClick={() => handleQuantityChange(-1)}
-							className={`px-4 py-2 rounded-l text-lg ${
+							className={`px-4 py-2 rounded-lg text-lg ${
 								quantity === 1
-									? 'bg-gray-700 cursor-not-allowed'
-									: 'bg-gray-500 hover:bg-gray-700'
+									? 'bg-gray-500 cursor-not-allowed'
+									: 'bg-gray-900 hover:bg-gray-700'
 							} text-white`}
 							aria-label='Decrease Quantity'
 						>
 							-
 						</button>
-						<span className='text-white px-5 py-2 text-lg'>
+						<span className='text-white px-5 py-2 text-lg bg-gray-800 rounded-lg mx-1'>
 							{product?.stock > 0 ? quantity : 0}
 						</span>
 						<button
 							onClick={() => handleQuantityChange(1)}
-							className='bg-gray-500 text-white px-4 py-2 rounded-r text-lg hover:bg-gray-700'
+							className={`px-4 py-2 rounded-lg text-lg ${
+								quantity === product?.stock
+									? 'bg-gray-500 cursor-not-allowed'
+									: 'bg-gray-900 hover:bg-gray-700'
+							} text-white`}
 							aria-label='Increase Quantity'
 							disabled={product?.stock === quantity}
 						>
@@ -152,7 +153,7 @@ const ProductDetails = () => {
 
 					<button
 						type='button'
-						className='bg-gray-700 text-white font-bold py-3 px-6 rounded hover:bg-gray-500 transition duration-300 w-full md:w-auto mb-4'
+						className='bg-gray-900 text-white font-bold py-4 px-7 rounded-lg hover:bg-gray-700 transition duration-300 w-full md:w-auto mb-2'
 						onClick={setItemToCart}
 						disabled={product?.stock === 0}
 					>
@@ -162,7 +163,7 @@ const ProductDetails = () => {
 					</button>
 
 					{/* Product Status */}
-					<div className='flex justify-start gap-3 items-center mt-2'>
+					<div className='flex justify-start gap-2 items-center mt-2'>
 						<p className=''>
 							Status:
 							<span
@@ -186,11 +187,13 @@ const ProductDetails = () => {
 					</div>
 
 					{/* Product Description */}
-					<div className='mt-6'>
+					<div className='mt-2 flex flex-col justify-center items-start'>
 						<h2 className='text-lg font-semibold mb-2'>
 							Description
 						</h2>
-						<p>{product?.description}</p>
+						<p className='text-balance text-justify leading-1 pb-2 font-serif'>
+							{product?.description}
+						</p>
 					</div>
 				</div>
 			</div>

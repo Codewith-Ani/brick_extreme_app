@@ -82,12 +82,12 @@ const Products = () => {
 									<Link
 										key={index}
 										to={`/product/${product?._id}`}
-										className='relative overflow-hidden rounded-lg shadow-md group border border-gray-200 bg-white cursor-pointer transition-all duration-300 hover:shadow-lg'
+										className='relative overflow-hidden rounded-lg shadow-md shadow-blue-400 group cursor-pointer transition-all duration-300  *: hover:shadow-white hover:-translate-y-1'
 									>
 										{/* Image Section */}
 										<div className='w-full aspect-square relative flex justify-center items-center'>
 											<img
-												className='absolute w-full aspect-square object-fill bg-gray-700 transition-opacity duration-300 ease-in-out group-hover:opacity-0'
+												className='absolute w-full aspect-square object-fill transition-opacity duration-300 ease-in-out group-hover:opacity-0'
 												src={defaultImage}
 												alt={product?.name}
 											/>
@@ -99,15 +99,15 @@ const Products = () => {
 										</div>
 
 										{/* Details Section */}
-										<div className='w-full p-2 bg-gray-400 text-gray-700 flex flex-col justify-center'>
+										<div className='w-full p-2 bg-slate-800 text-gray-200 flex flex-col justify-center'>
 											<h3 className='text-lg font-semibold truncate'>
 												{product?.name}
 											</h3>
-											<p className='text-sm text-gray-500 truncate'>
+											<p className='text-sm text-gray-200 truncate'>
 												{product.description}
 											</p>
 											<div className='flex justify-between items-center mt-1'>
-												<p className='text-lg font-bold text-red-500'>
+												<p className='text-lg font-bold text-red-400'>
 													${discountPrice}
 												</p>
 												<div className='flex items-center gap-2'>

@@ -24,7 +24,8 @@
 		"react-slick": "^0.30.2",
 		"react-star-ratings": "^2.3.0",
 		"sass": "^1.77.8",
-		"slick-carousel": "^1.8.1"
+		"slick-carousel": "^1.8.1",
+		"tailwind-scrollbar": "^3.1.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.9.0",

@@ -18,6 +18,14 @@ export default [
 				public_id: 'shopit/demo/oc2dvvkxyxukc13y9pjv',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/oc2dvvkxyxukc13y9pjv.jpg',
 			},
+			{
+				public_id: 'shopit/demo/e3hweb3tbp5zacfi564c',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577509/shopit/demo/e3hweb3tbp5zacfi564c.jpg',
+			},
+			{
+				public_id: 'shopit/demo/mjcc0kg0lzxegrauh8qc',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577509/shopit/demo/mjcc0kg0lzxegrauh8qc.jpg',
+			},
 		],
 		seller: 'Ebay',
 		category: ['Latest', 'StarWars'],
@@ -48,6 +56,14 @@ export default [
 				public_id: 'shopit/demo/bj3auijqcxxvkwdohznb',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577510/shopit/demo/bj3auijqcxxvkwdohznb.jpg',
 			},
+			{
+				public_id: 'shopit/demo/nkkjkta63uiazppzkmjf',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/nkkjkta63uiazppzkmjf.jpg',
+			},
+			{
+				public_id: 'shopit/demo/hz1iwdqzrvxtfxincvju',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/hz1iwdqzrvxtfxincvju.jpg',
+			},
 		],
 		category: ['Latest', 'Marvels'],
 		seller: 'Amazon',
@@ -70,6 +86,14 @@ export default [
 				public_id: 'shopit/demo/pgcwny8xyshsnwaiikbm',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577531/shopit/demo/pgcwny8xyshsnwaiikbm.jpg',
 			},
+			{
+				public_id: 'shopit/demo/yqqwxrgst2pi3frtngaw',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577531/shopit/demo/yqqwxrgst2pi3frtngaw.jpg',
+			},
+			{
+				public_id: 'shopit/demo/pgcwny8xyshsnwaiikbm',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577531/shopit/demo/pgcwny8xyshsnwaiikbm.jpg',
+			},
 		],
 		category: ['BestSeller', 'HarryPotter'],
 		seller: 'Amazon',
@@ -84,6 +108,22 @@ export default [
 			'What happens when you clear away the noisy distractions of the world? Concentration goes to the next level. You get deeper into your music, your work, or whatever you want to focus on. That’s the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you’re most passionate about. And that’s just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR',
 		ratings: 4.5,
 		images: [
+			{
+				public_id: 'shopit/demo/yxbrklp7snr7dgxfrxu9',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/yxbrklp7snr7dgxfrxu9.jpg',
+			},
+			{
+				public_id: 'shopit/demo/i8ge1ilin2fz9tk2okni',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/i8ge1ilin2fz9tk2okni.jpg',
+			},
+			{
+				public_id: 'shopit/demo/yxbrklp7snr7dgxfrxu9',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/yxbrklp7snr7dgxfrxu9.jpg',
+			},
+			{
+				public_id: 'shopit/demo/i8ge1ilin2fz9tk2okni',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/i8ge1ilin2fz9tk2okni.jpg',
+			},
 			{
 				public_id: 'shopit/demo/yxbrklp7snr7dgxfrxu9',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/yxbrklp7snr7dgxfrxu9.jpg',
@@ -118,6 +158,14 @@ export default [
 				public_id: 'shopit/demo/kxckb0o7fbdwqgmugoct',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/kxckb0o7fbdwqgmugoct.jpg',
 			},
+			{
+				public_id: 'shopit/demo/yj00oalanbzmbzctsbln',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/yj00oalanbzmbzctsbln.jpg',
+			},
+			{
+				public_id: 'shopit/demo/yj00oalanbzmbzctsbln',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/yj00oalanbzmbzctsbln.jpg',
+			},
 		],
 		category: ['Latest', 'StarWars'],
 		seller: 'Amazon',
@@ -136,6 +184,22 @@ export default [
 				public_id: 'shopit/demo/xmndneguqtrcutpf9wcz',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577572/shopit/demo/xmndneguqtrcutpf9wcz.jpg',
 			},
+			{
+				public_id: 'shopit/demo/xmndneguqtrcutpf9wcz',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577572/shopit/demo/xmndneguqtrcutpf9wcz.jpg',
+			},
+			{
+				public_id: 'shopit/demo/xmndneguqtrcutpf9wcz',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577572/shopit/demo/xmndneguqtrcutpf9wcz.jpg',
+			},
+			{
+				public_id: 'shopit/demo/xmndneguqtrcutpf9wcz',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577572/shopit/demo/xmndneguqtrcutpf9wcz.jpg',
+			},
+			{
+				public_id: 'shopit/demo/xmndneguqtrcutpf9wcz',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577572/shopit/demo/xmndneguqtrcutpf9wcz.jpg',
+			},
 		],
 		category: ['BestSeller', 'StarWars'],
 		seller: 'Amazon',
@@ -150,6 +214,22 @@ export default [
 			"You don't need to be a photographer to know a great photo when you see one. And you don't need to be a photographer to take a great photo—you just need the D3500. It's as easy to use as a point-and-shoot, but it takes beautiful DSLR photos and videos that get noticed. It feels outstanding in your hands, sturdy and balanced with controls where you want them. It's compact, durable and versatile, ideal for travel. And it works seamlessly with compatible smartphones, making it easier than ever to share your great photos. Even if you've never picked up a DSLR camera, you can take beautiful pictures with D3500.",
 		ratings: 4.7,
 		images: [
+			{
+				public_id: 'shopit/demo/q6ybe84qlkzwet9qwptz',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/q6ybe84qlkzwet9qwptz.jpg',
+			},
+			{
+				public_id: 'shopit/demo/q6ybe84qlkzwet9qwptz',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/q6ybe84qlkzwet9qwptz.jpg',
+			},
+			{
+				public_id: 'shopit/demo/q6ybe84qlkzwet9qwptz',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/q6ybe84qlkzwet9qwptz.jpg',
+			},
+			{
+				public_id: 'shopit/demo/q6ybe84qlkzwet9qwptz',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/q6ybe84qlkzwet9qwptz.jpg',
+			},
 			{
 				public_id: 'shopit/demo/q6ybe84qlkzwet9qwptz',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/q6ybe84qlkzwet9qwptz.jpg',
@@ -188,6 +268,18 @@ export default [
 				public_id: 'shopit/demo/pabtjloyzenmr6z8klcr',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577600/shopit/demo/pabtjloyzenmr6z8klcr.jpg',
 			},
+			{
+				public_id: 'shopit/demo/jzqaj98nnhy0hcsilx9y',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577597/shopit/demo/jzqaj98nnhy0hcsilx9y.jpg',
+			},
+			{
+				public_id: 'shopit/demo/jzqaj98nnhy0hcsilx9y',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577597/shopit/demo/jzqaj98nnhy0hcsilx9y.jpg',
+			},
+			{
+				public_id: 'shopit/demo/jzqaj98nnhy0hcsilx9y',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577597/shopit/demo/jzqaj98nnhy0hcsilx9y.jpg',
+			},
 		],
 		category: 'BestSeller',
 		seller: 'Amazon',
@@ -205,6 +297,22 @@ export default [
 			{
 				public_id: 'shopit/demo/mq0zpyzmzqokphs9m9we',
 				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/mq0zpyzmzqokphs9m9we.jpg',
+			},
+			{
+				public_id: 'shopit/demo/pkyy8rifxpesiwpy23kk',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/pkyy8rifxpesiwpy23kk.jpg',
+			},
+			{
+				public_id: 'shopit/demo/pkyy8rifxpesiwpy23kk',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/pkyy8rifxpesiwpy23kk.jpg',
+			},
+			{
+				public_id: 'shopit/demo/pkyy8rifxpesiwpy23kk',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/pkyy8rifxpesiwpy23kk.jpg',
+			},
+			{
+				public_id: 'shopit/demo/pkyy8rifxpesiwpy23kk',
+				url: 'http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/pkyy8rifxpesiwpy23kk.jpg',
 			},
 			{
 				public_id: 'shopit/demo/pkyy8rifxpesiwpy23kk',
