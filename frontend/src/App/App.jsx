@@ -26,7 +26,7 @@ const App = () => {
 		<SearchProvider>
 			<BrowserRouter>
 				<Header />
-				<div className='app-container bg-gradient-to-tl from-blue-900 via-blue-500 to-blue-800'>
+				<div className='app-container bg-gradient-to-br from-[#7E9BB2] via-[#1f3a5f95] to-[#1F3A5F]'>
 					<Toaster position='top-center' />
 					<div className=''>
 						<Routes>
